@@ -124,6 +124,7 @@ body .sucesso{
 }
 
 .sucesso svg{
+    opacity: 0;
     margin-bottom: 20px;
 }
 
