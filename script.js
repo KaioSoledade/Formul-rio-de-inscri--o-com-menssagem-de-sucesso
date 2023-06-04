@@ -1,6 +1,7 @@
 
 function submit(){
-    window.location = "sucesso.html"
+    var email = document.querySelector('.email').ariaValueMax;
+    window.location.herf = "sucesso.html?nome=" + email
 }
 
 
