@@ -1,8 +1,8 @@
 
-var urlImpri = new URLSearchParams(window.location.search)
-var nome = urlImpri.get('email');
+var urlParams = new URLSearchParams(window.location.search)
+var nome = urlParams.get('nome');
 
-document.write("nome: + email")
+document.write("email");
 
 function vlt(){
     window.location = "index.html"
