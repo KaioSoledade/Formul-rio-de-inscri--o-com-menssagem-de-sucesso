@@ -1,6 +1,5 @@
-
-var urlParams = new URLSearchParams(window.location.search)
-var nome = urlParams.get('nome');
+var email = document.getElementById('email').value;
+localStorage.setItem('email', email);
 
 document.write("email");
 
