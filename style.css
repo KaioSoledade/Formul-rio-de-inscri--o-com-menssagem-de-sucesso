@@ -106,14 +106,14 @@ body .sucesso{
     border: rgb(54, 54, 54) 4px solid;
 }
 
-.sucesso h1{
+#sucesso h1{
     font-size: 60px;
 }
-.sucesso p{
+#sucesso p{
     margin: 1em 0 2em;
 }
 
-.sucesso button{
+#sucesso button{
     background: linear-gradient(to right, rgb(255, 8, 0) , rgb(253, 152, 0));
     color: white;
     font-size: 15px;
@@ -128,13 +128,13 @@ body .sucesso{
     cursor: pointer;
 }
 
-.sucesso svg{
+#sucesso svg{
     opacity: 0;
     margin-bottom: 20px;
 }
 
 
-.sucesso2{
+.show{
     opacity: 1;
     position: absolute;
 
@@ -145,4 +145,6 @@ body .sucesso{
     background-color: white;
 
     padding: 4em;
+    border: rgb(54, 54, 54) 4px solid;
+
 }
