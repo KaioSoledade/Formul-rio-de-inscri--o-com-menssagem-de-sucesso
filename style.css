@@ -99,6 +99,11 @@ body .sucesso{
     background-color: white;
 
     padding: 4em;
+
+    opacity: 0;
+    position: absolute;
+    margin: 0 0 0 1500px;
+    border: rgb(54, 54, 54) 4px solid;
 }
 
 .sucesso h1{
@@ -128,3 +133,16 @@ body .sucesso{
     margin-bottom: 20px;
 }
 
+
+.sucesso2{
+    opacity: 1;
+    position: absolute;
+
+    width: 500px;
+    height: 510px;
+    border-radius: 20px;
+
+    background-color: white;
+
+    padding: 4em;
+}

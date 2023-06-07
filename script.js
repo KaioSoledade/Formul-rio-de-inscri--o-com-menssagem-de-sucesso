@@ -1,9 +1,9 @@
 
-    var email = document.querySelector('.email').value;
-    localStorage.setItem("email", email);
+    const email = document.querySelector('.email');
+    localStorage.setItem("email", email.value);
 
 function submit(){
-    window.location = "sucesso.html"
+   
 }
 
 
