@@ -1,10 +1,9 @@
 
-function submit(){
     var email = document.querySelector('.email').value;
-    localStorage.setItem('email', email);
+    localStorage.setItem("email", email);
 
-
-    window.location.herf = "sucesso.html?nome=" + encodeURIComponent(email);
+function submit(){
+    window.location = "sucesso.html"
 }
 
 

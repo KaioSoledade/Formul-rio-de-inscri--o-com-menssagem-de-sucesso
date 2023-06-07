@@ -1,7 +1,8 @@
-var email = document.getElementById('email').value;
-localStorage.setItem('email', email);
 
-document.write("email");
+const name = localStorage.setItem('email');
+
+var n1 = document.querySelector('.receber')
+n1.innerHTML('name')
 
 function vlt(){
     window.location = "index.html"
