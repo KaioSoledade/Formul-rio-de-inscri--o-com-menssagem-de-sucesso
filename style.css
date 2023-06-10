@@ -80,11 +80,17 @@ section .input-email{
     flex-direction: column;
     justify-content: space-between;
 }
+
 section .input-email .email{
     margin: 0.5em 0 1em 0;
 }
 section .input-email label{
     font-weight: bold;
+
+}
+section .label-email-2{
+   color: rgb(223, 12, 12);
+   font-size: 15px;
 }
 section .input-email .submit{
     font-size: 15px;
