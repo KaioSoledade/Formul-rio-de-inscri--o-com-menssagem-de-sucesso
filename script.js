@@ -1,10 +1,10 @@
 
 function submit(){
    
-   var n2 = document.querySelector('.email')
-   if(n2){
-      document.querySelector('#sucesso').classList.add('show')
-      document.querySelector('#sucesso').classList.remove('sucesso')
+   var n2 = document.querySelector('.email').value
+   if(n2 !== ""){
+      document.querySelector('#fundo').classList.add('fundo-de-sucesso-add')
+      document.querySelector('#fundo').classList.remove('fundo-de-sucesso')
       var n1 = document.querySelector('.email')
       document.querySelector('.recebe').innerHTML = n1.value
    } else{
@@ -14,9 +14,9 @@ function submit(){
 }
 
 function vlt(){
-    document.querySelector('#sucesso').classList.add('sucesso')
-   document.querySelector('#sucesso').classList.remove('show')
-
+    document.querySelector('#fundo').classList.add('fundo-de-sucesso')
+   document.querySelector('#fundo').classList.remove('fundo-de-sucesso-add')
+   location.reload()
 }
 
 
