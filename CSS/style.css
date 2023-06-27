@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;}
-body{
+main{
     width: 100%;
     height: 100vh;
 
@@ -37,9 +37,10 @@ body .itens{
 }
 
 section .container{
-    margin: 0 0 50px 2em;
+    margin: 120px 0 50px 2em;
     width: 400px;
-    height: 450px;
+    height: 550px;
+
     
     display: flex;
     flex-direction: column;
@@ -74,18 +75,16 @@ section .submit{
 
 section .input-email{
     width: 400px;
-    height: 150px;
+    height: 250px;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
-section .input-email .email{
-    margin: 0.5em 0 1em 0;
-}
+
 section .input-email label{
     font-weight: bold;
+    margin-bottom: 0.5em;
 
 }
 section .label-email-2{
@@ -95,6 +94,9 @@ section .label-email-2{
 section .input-email .submit{
     font-size: 15px;
     cursor: pointer;
+
+    margin-top: 40px;
+    
 }
 
 body .sucesso{
@@ -175,4 +177,22 @@ body .sucesso{
 
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+span{
+    color: red;
+    font-size: 17px;
+}
+.span-none{
+    display: none;
 }
