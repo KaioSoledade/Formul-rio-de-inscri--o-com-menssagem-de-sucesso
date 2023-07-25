@@ -8,6 +8,7 @@ Ao navegar na página, você só poderá prosseguir para a aba de sucesso se for
 ## Ferramentas utilizadas
 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/en/about)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
